@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contactez-nous</h1>
+        <form action="#" method="post">
+            <label for="civilite">Civilité:</label>
+            <select id="civilite" name="civilite">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+            </select>
+
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="adresse">Adresse postale:</label>
+            <textarea id="adresse" name="adresse" rows="4" required></textarea>
+
+            <label class="checkbox-label">
+                <input type="checkbox" id="confidentialite" name="confidentialite" required>
+                J'accepte les politiques de confidentialité de l'entreprise.
+            </label>
+
+            <input type="submit" class="submit-button" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>

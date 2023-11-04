@@ -1,0 +1,13 @@
+.mosaic{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.fleur-mosaic{
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
